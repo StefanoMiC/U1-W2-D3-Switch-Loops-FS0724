@@ -56,7 +56,8 @@ for (let i = 0; i < students.length; i++) {
   console.log("iterazione");
   if (students[i] === "Adriana") {
     console.log("Adriana si trova in posizione: ", i + 1, "con indice: ", i);
-    break;
+    break; // il for loop smette la sua esecuzione dopo aver trovato la persona interessata,
+    // senza questo break avrebbe comunque fatto altre 3 iterazioni inutilmente
   }
 }
 
